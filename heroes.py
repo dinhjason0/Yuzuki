@@ -2,7 +2,7 @@ class Hero:
     def __init__(self, userID='', name='', HP=10, STR = 1, DEX = 1, SPD = 1, MPE = 1, HIT = 5):
         #User's Discord ID
         self.userID = userID
-        #Discord#0000 set
+        #Discord's name
         self.name = name
         #Player's Total Flat Hitpoints
         self.HP = HP
