@@ -1,5 +1,5 @@
 class Item(object):
-    def __init__(self, name='', dmgtype='', dmgrange=[1,5], abilitya='', abilityb='', gear_pos=[0,0,0,0,0,0,0,0,0,0]):
+    def __init__(self, name='', dmgtype='', dmgrange=[1,5], abilitya='', abilityb='', gear_pos=[0,0,0,0,0,0,0,0,0,0], weight=0):
         #Item name
         self.name = name
         #dmgtype
@@ -12,3 +12,5 @@ class Item(object):
         self.abilityb = abilityb
         #gear_pos
         self.gear_pos = gear_pos
+        #weapon_weight
+        self.weight = weight
